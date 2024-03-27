@@ -1,0 +1,9 @@
+.container{
+    width: 200px;
+    height: 380px;
+    /* margin-left: 10px; */
+    align-items: center;
+    border: 2px solid rgb(165 158 158);
+    border-radius: 5px;
+}
+

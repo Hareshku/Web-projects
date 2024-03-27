@@ -1,0 +1,20 @@
+.container{
+    text-align: left;
+}
+.container .row{
+    margin-top: 20px;
+}
+.container .row .myBtn{
+    width: 100px;
+}
+.btn-danger{
+    margin-left: 32px;
+    
+}
+
+@media screen and (max-width: 992px) {
+    .btn-danger{
+        margin-left: 0px;
+        
+    }
+  }
