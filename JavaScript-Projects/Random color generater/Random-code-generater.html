@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            width: 100vw;
+            height: 100vh;
+             transition: 1s; 
+        }
+
+        .main{
+            width: 100%;
+            height: 100%;
+            /* background-color: rgb(48, 45, 45); */
+        }
+        button{
+            width: 150px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <button class="btn">Generate color</button>
+        <p class="Color-code">Color code</p>
+    </div>
+    <script>
+        const generateColor=()=>{
+            const randomNumber= Math.floor(Math.random()*16215);
+            const randColor="#"+randomNumber.toString(16);
+            // console.log(randColor);
+            document.body.style.backgroundColor=randColor;
+            document.querySelector(".Color-code").innerText= `Color code      ${randColor}`;
+            navigator.clipboard.writeText(randColor);
+
+        }
+        document.querySelector(".btn").addEventListener("click",generateColor);
+
+        generateColor();
+    </script>
+</body>
+</html>
