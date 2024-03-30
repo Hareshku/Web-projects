@@ -1,8 +1,9 @@
 import { BiSolidMessageAdd } from "react-icons/bi";
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { TodoItem_Context } from "../Store/todo_app_store";
 import styles from "./todoAdd.module.css"
-function todoAdd({onNewItemAdd}){
-
+function todoAdd(){
+  const {AddNewItem}=useContext(TodoItem_Context)
   const [toDoName, setTodoName]= useState(' ');
   const [toDodate, setTodoDate]= useState(' ');
 
@@ -14,7 +15,7 @@ function todoAdd({onNewItemAdd}){
   }
 
   const handleAddButton=()=>{
-    onNewItemAdd(toDoName, toDodate)
+    AddNewItem(toDoName, toDodate)
     setTodoName(" ");
     setTodoDate(" ");
   }

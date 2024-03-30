@@ -18,7 +18,7 @@ function App() {
     },
   ]);
 
-  const onHandleItem=(todoName, tododuDate)=>{
+  const AddNewItem=(todoName, tododuDate)=>{
     const newTodoItems= [...todoItems, {
       name: todoName,
       duDate: tododuDate,
@@ -27,18 +27,28 @@ function App() {
   }
 
 
-  const onHandleDelete= (toDoItemName)=>{
+  const DeleteItems= (toDoItemName)=>{
     const newTodoafterDelete= todoItems.filter((items)=>items.name!==toDoItemName);
     setTodoItems(newTodoafterDelete);
   }
+  // const TodoItemsValue=[
+  //   { name:"Haresh",
+  //   duDate: "Today"}
+  // ];
 
   return (
-  <TodoItem_Context.Provider>
+  <TodoItem_Context.Provider value={
+    {
+      todoItems:todoItems,
+      AddNewItem: AddNewItem,
+      DeteletItems: DeleteItems,
+    }
+  }>
   <center className="todo-container">
   <AppName></AppName>
-  <TodoAdd onNewItemAdd={onHandleItem}></TodoAdd>
-   <Inform todoItems={todoItems}></Inform>
-  <TodoItems todoItems={todoItems}  onDeleteClicked={onHandleDelete}></TodoItems>
+  <TodoAdd ></TodoAdd>
+   <Inform></Inform>
+  <TodoItems></TodoItems>
   
  </center>
  </TodoItem_Context.Provider>
