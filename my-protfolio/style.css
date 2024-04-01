@@ -208,7 +208,7 @@ body {
   
   }
   
-  .navbar {
+  .header .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -971,6 +971,7 @@ text-align: center;
     background: black;
     font-weight: 300;
     margin-top: 0px;
+    color: #bbb;
 }
 .top{
     position: fixed;
@@ -1357,7 +1358,7 @@ text-align: center;
 }
 
 ::placeholder{
-  color: rgb(219, 10, 10);
+  color: #bbb;
 }
 
 .send-button {
@@ -1502,11 +1503,11 @@ hr {
     color: #d61a1a;
 } */
 .form-horizontal .form-group .col-sm-12  .form-control::-webkit-input-placeholder {
-    color: #d61a1a;
+    color: #bbb;
 }
 
 .form-horizontal textarea::-webkit-input-placeholder{
-color: red;
+color: #bbb;
 }
 /* Media Queries*/
 @media screen and (max-width: 850px) {
