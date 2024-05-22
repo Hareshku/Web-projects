@@ -426,7 +426,7 @@ text-align: center;
 
 .about-text p {
     color: aliceblue;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 2;
     letter-spacing: 2px;
     margin-bottom: 4rem;
@@ -445,6 +445,7 @@ text-align: center;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 .abtbtn-box:hover {
