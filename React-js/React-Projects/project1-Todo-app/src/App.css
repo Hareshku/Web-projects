@@ -1,0 +1,19 @@
+.todo-container{
+width: 80%;
+}
+h1{
+  font-weight: 700;
+  font-size: 45px;
+}
+.Todo_inputs{
+width: 100%;
+}
+
+.app_items{
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+}
+.APP-buttons{
+width: 80px;
+}
