@@ -1,0 +1,19 @@
+.container{
+background-color: red;
+max-width: 50%;
+}
+.para{
+    font-size: 25px;
+}
+.col-container{
+    width: 80%;
+    font-size: 17px;
+}
+.col{
+    width: 40%;
+}
+.P-text{
+    width: 100%;
+}
+
+
