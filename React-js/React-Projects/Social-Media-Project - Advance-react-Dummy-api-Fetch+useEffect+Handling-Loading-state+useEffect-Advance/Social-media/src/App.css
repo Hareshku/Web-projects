@@ -1,0 +1,48 @@
+.app-container{
+display: flex;
+}
+.content{
+  width: 100%;
+}
+
+.side_bar{
+  min-height: 550px;
+}
+
+.post_card{
+  margin: 20px 50px;
+}
+
+.hashTag{
+ margin: 0px 3px;
+}
+
+.reactions{
+  margin: 20px 0 0 0;
+}
+
+.Create-post{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  padding: 20px;
+  border: 2px solid #f8f2f2de;
+  border-radius: 10px;
+}
+
+.like_btn{
+margin: 10px 20px;
+}
+
+.like{
+  width: 60px;
+  height: 30px;
+}
+
+.wellCome_Msg{
+  margin: 100px;
+}
+
+.spinner{
+  margin: 10% 0;
+}
