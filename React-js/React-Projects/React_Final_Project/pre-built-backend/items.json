@@ -94,6 +94,111 @@
         "return_period": 14,
         "delivery_date": "10 Oct 2023",
         "rating": { "stars": 4.2, "count": 5200 }
+      },
+      {
+        "id": "009",
+        "image": "images/img1.jpg",
+        "company": "Carlton London",
+        "item_name": "Rhodium-Plated CZ Floral Studs",
+        "original_price": 1045,
+        "current_price": 606,
+        "discount_percentage": 42,
+        "return_period": 14,
+        "delivery_date": "10 Oct 2023",
+        "rating": {
+          "stars": 4.5,
+          "count": 1400
+        }
+      },
+      {
+        "id": "010",
+        "image": "images/img2.jpg",
+        "company": "Nike",
+        "item_name": "Running Shoes",
+        "original_price": 2000,
+        "current_price": 1500,
+        "discount_percentage": 25,
+        "return_period": 30,
+        "delivery_date": "12 Oct 2023",
+        "rating": {
+          "stars": 4.8,
+          "count": 2300
+        }
+      },
+      {
+        "id": "011",
+        "image": "images/img3.webp",
+        "company": "Adidas",
+        "item_name": "Soccer Ball",
+        "original_price": 1200,
+        "current_price": 900,
+        "discount_percentage": 25,
+        "return_period": 15,
+        "delivery_date": "15 Oct 2023",
+        "rating": {
+          "stars": 4.7,
+          "count": 1800
+        }
+      },
+      {
+        "id": "012",
+        "image": "images/img4.webp",
+        "company": "Puma",
+        "item_name": "Sports Jacket",
+        "original_price": 3000,
+        "current_price": 2400,
+        "discount_percentage": 20,
+        "return_period": 20,
+        "delivery_date": "18 Oct 2023",
+        "rating": {
+          "stars": 4.6,
+          "count": 2100
+        }
+      },
+      {
+        "id": "013",
+        "image": "images/img5.jpg",
+        "company": "Reebok",
+        "item_name": "Training Shorts",
+        "original_price": 1500,
+        "current_price": 1200,
+        "discount_percentage": 20,
+        "return_period": 10,
+        "delivery_date": "20 Oct 2023",
+        "rating": {
+          "stars": 4.4,
+          "count": 900
+        }
+      },
+      {
+        "id": "014",
+        "image": "images/img6.webp",
+        "company": "Levi's",
+        "item_name": "Denim Jacket",
+        "original_price": 3500,
+        "current_price": 2800,
+        "discount_percentage": 20,
+        "return_period": 25,
+        "delivery_date": "22 Oct 2023",
+        "rating": {
+          "stars": 4.9,
+          "count": 3000
+        }
+      },
+      {
+        "id": "015",
+        "image": "images/img7.webp",
+        "company": "Zara",
+        "item_name": "Casual Shirt",
+        "original_price": 2500,
+        "current_price": 2000,
+        "discount_percentage": 20,
+        "return_period": 18,
+        "delivery_date": "24 Oct 2023",
+        "rating": {
+          "stars": 4.3,
+          "count": 1500
+        }
       }
     ]
   ]
